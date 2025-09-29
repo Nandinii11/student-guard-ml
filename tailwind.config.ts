@@ -47,6 +47,27 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Risk Level Colors
+        "risk-low": {
+          DEFAULT: "hsl(var(--risk-low))",
+          foreground: "hsl(var(--risk-low-foreground))",
+        },
+        "risk-medium": {
+          DEFAULT: "hsl(var(--risk-medium))",
+          foreground: "hsl(var(--risk-medium-foreground))",
+        },
+        "risk-high": {
+          DEFAULT: "hsl(var(--risk-high))",
+          foreground: "hsl(var(--risk-high-foreground))",
+        },
+        // Educational Theme
+        education: {
+          primary: "hsl(var(--education-primary))",
+          secondary: "hsl(var(--education-secondary))",
+          success: "hsl(var(--education-success))",
+          warning: "hsl(var(--education-warning))",
+          danger: "hsl(var(--education-danger))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +83,22 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+        "gradient-risk-low": "var(--gradient-risk-low)",
+        "gradient-risk-medium": "var(--gradient-risk-medium)",
+        "gradient-risk-high": "var(--gradient-risk-high)",
+      },
+      boxShadow: {
+        elegant: "var(--shadow-elegant)",
+        card: "var(--shadow-card)",
+        glow: "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        bounce: "var(--transition-bounce)",
       },
       keyframes: {
         "accordion-down": {
