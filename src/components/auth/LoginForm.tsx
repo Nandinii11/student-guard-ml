@@ -100,7 +100,7 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
           </form>
           <div className="mt-6 text-center text-sm text-muted-foreground">
             <p>Demo Credentials:</p>
-            <p>admin / teacher (any password)</p>
+            <p>admin / teacher </p>
           </div>
         </CardContent>
       </Card>
